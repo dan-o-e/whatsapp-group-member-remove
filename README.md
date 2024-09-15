@@ -42,7 +42,7 @@ ChromeDriver is managed automatically by webdriver-manager. Ensure ChromeDriver 
 
 1. **Update Script**
 
-   Open `whatsapp-group-member-remove.py` and update the `group_name` variable with the name of your WhatsApp group:
+   Open `whatsapp-group-auto-member-remove.py` and update the `group_name` variable with the name of your WhatsApp group:
 
    ```python
    group_name = "your-group-name"  # Replace with the actual group name
@@ -52,7 +52,7 @@ ChromeDriver is managed automatically by webdriver-manager. Ensure ChromeDriver 
    Make sure you are logged into WhatsApp Web in your browser and have the correct profile set up. Then run the script:
 
    ```bash
-   python whatsapp-group-member-remove.py
+   python whatsapp-group-auto-member-remove.py
 
 
 The script will:
